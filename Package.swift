@@ -26,14 +26,10 @@ let package = Package(
         .binaryTarget(name: "AirTurnUI", url: "https://airturn.com/framework/AirTurnUI.\(version).static.spm.zip", checksum: checksum),
         .target(name: "AirTurnUITargets",
                         dependencies: [
+                            .target(name: "AirTurnUI"),
                             .product(name: "AirTurnInterface", package: "AirTurnInterface")
                         ],
-                        path: "Sources",
-                        resources: [
-                                        .process("text.txt"),
-                                        .process("example.png"),
-                                        .copy("settings.plist")
-                                    ]
+                        path: "Sources"
         )
     ]
 )
