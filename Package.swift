@@ -18,7 +18,7 @@ let package = Package(
     ],
     dependencies: [
         .package(name: "AirTurnInterface",
-                         url: "git@github.com:AirTurn/AirTurnInterface-static-SP.git",
+                         url: "https://github.com/AirTurn/AirTurnInterface-static-SP.git",
                          from: Version(version)!
         )
     ],
