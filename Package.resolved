@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "AirTurnInterface",
+        "repositoryURL": "https://github.com/AirTurn/AirTurnInterface-static-SP.git",
+        "state": {
+          "branch": null,
+          "revision": "06cf51653e5236f06e5c8843073839b9241a5739",
+          "version": "4.10.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
